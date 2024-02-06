@@ -1,0 +1,6 @@
+poetry.toml
+.venv
+**/__pycache__
+database.db
+.env
+.pytest_cache
