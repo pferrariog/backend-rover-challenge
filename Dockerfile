@@ -14,8 +14,4 @@ COPY . .
 
 RUN poetry install --without dev --no-interaction --no-ansi
 
-EXPOSE 8000
-
-RUN chmod +x /app/docker-entrypoint.sh
-
-CMD ["./docker-entrypoint.sh"]
+CMD ["python", "main.py"]
